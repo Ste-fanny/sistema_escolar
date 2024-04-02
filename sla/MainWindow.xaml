@@ -1,0 +1,129 @@
+﻿<Window x:Class="sla.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sla"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="White">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="353*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="446*"/>
+        </Grid.ColumnDefinitions>
+
+        <Ellipse Margin="259,207,323,40" Grid.ColumnSpan="4">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1543D4"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+        <Ellipse Margin="9,13,313,306" Grid.Column="3" RenderTransformOrigin="-0.021,0.554">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1543D4"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+        <Ellipse Margin="238,20,19,227" Grid.Column="3">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1543D4"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+
+
+        <Border Opacity="0.7" Margin="0,0,0,1" RenderTransformOrigin="0.427,0.312" Grid.ColumnSpan="3">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFB8CAED"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFD5D7DA" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+        </Border>
+
+
+        <Button Content="Dados Pessoais" RenderTransformOrigin="0.51,-0.28" Margin="19,207,184,154" Background="White" BorderThickness="3,1,1,1" BorderBrush="#FF0C2EED" FontFamily="Arial" FontWeight="Bold" FontSize="14">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter  Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+
+        <Button Grid.Column="0" Content="Calendario Acadêmico" RenderTransformOrigin="0.51,-0.28" Margin="184,296,19,65" Background="White" BorderThickness="3,1,1,1" BorderBrush="#FF0C2EED" FontFamily="Arial" FontWeight="Bold" FontSize="13">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button Grid.Column="0" Content="Notas" RenderTransformOrigin="0.51,-0.28" Margin="184,207,19,154" Background="White" BorderThickness="3,1,1,1" BorderBrush="#FF0C2EED" FontSize="14" FontFamily="Arial" FontWeight="Bold" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button Grid.Column="0" Content="Atividades Acaêmicas" RenderTransformOrigin="0.51,-0.28" Margin="19,296,184,65" Background="White" BorderThickness="3,1,1,1" BorderBrush="#FF0C2EED" FontFamily="Arial" FontWeight="Bold" FontSize="13" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+
+
+
+        <Button Content="SAIR" RenderTransformOrigin="0.51,-0.28" Margin="132,385,132,10" Background="#FFF9E7E5" BorderThickness="3,1,1,1" BorderBrush="#FFED2B0C" Opacity="0.8" FontFamily="Source Serif Pro Black" FontSize="18" Foreground="#FFFF1717" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBox TextWrapping="Wrap" Text="Menu" Margin="56,161,193,240" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="22" FontWeight="Bold" Foreground="#FF4899D4" SelectionBrush="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox TextWrapping="Wrap" Text="____" Margin="57,159,203,232" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Segoe UI Black" FontSize="24" FontWeight="Bold" Foreground="#FF459DD7" SelectionBrush="{x:Null}" BorderBrush="{x:Null}"/>
+
+
+
+        <Border Background="#FF9FB9CC" Opacity="0.2" Margin="0,-2,1,1" Grid.Column="2" Grid.ColumnSpan="2"/>
+
+
+        <Ellipse HorizontalAlignment="Center" Height="161" Stroke="#FF7572E2" VerticalAlignment="Top" Width="166" RenderTransformOrigin="0.508,0.331">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="https://cdn-icons-png.flaticon.com/512/6915/6915987.png">
+
+                </ImageBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse Grid.Column="3" HorizontalAlignment="Left" Height="144" Margin="301,290,0,0" Stroke="#FFAFD2F9" VerticalAlignment="Top" Width="145">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="https://c8n.tradeling.com/img/plain/pim/rs:auto:800::0/f:webp/up/5e495521f60e52001b9c7631/d7afdd7e2f1c7c2fc28670672e732014.jpg">
+
+                </ImageBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+
+
+    </Grid>
+
+</Window>

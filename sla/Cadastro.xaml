@@ -1,0 +1,182 @@
+﻿<Window x:Class="sla.Cadastro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sla"
+        mc:Ignorable="d"
+        Title="Cadastro" Height="450" Width="800">
+    <Grid>
+
+
+        <Ellipse Margin="152,225,430,10">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1543D4"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+
+        <Ellipse Margin="20,19,646,299" RenderTransformOrigin="-0.021,0.554">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1543D4"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+
+        <Ellipse Margin="569,12,28,234">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1543D4"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+
+        <Ellipse Margin="400,125,319,234" RenderTransformOrigin="-0.021,0.554">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1543D4"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF87BDF3" Offset="0.99"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Border BorderBrush="#FF051940" BorderThickness="1" Margin="75,52,75,51" Opacity="0.405">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFB2C8FF"/>
+                    <GradientStop Color="#FF79A0FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+        </Border>
+        <Border BorderBrush="#FF003296" BorderThickness="1" Margin="76,52,268,51" Opacity="0.4" Padding="0,0,7,0">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF428AFF"/>
+                    <GradientStop Color="#FFD1E1FB" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+
+
+
+        </Border>
+
+        <TextBox  TextWrapping="Wrap" Text="BEM VINDO" Margin="203,67,395,314" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Gentium Basic" FontSize="40" Foreground="Black" SelectionBrush="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox  TextWrapping="Wrap" Text="Novo Login" Margin="0,110,432,289" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="22" FontWeight="Bold" Foreground="#FF043E67" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="130"/>
+        <TextBox  TextWrapping="Wrap" Text="__" Margin="238,110,527,289" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" Foreground="#FF043E67" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold"/>
+        <TextBox  TextWrapping="Wrap" Text="Faça Login" Margin="0,142,103,258" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="25" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="138"/>
+        <TextBox  TextWrapping="Wrap" Text="Cadastre-se" Margin="0,166,556,246" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="20" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="122"/>
+        <TextBox  TextWrapping="Wrap" Text="N° de matrícula" Margin="0,202,558,209" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="15" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="122"/>
+        <TextBox  TextWrapping="Wrap" Text="Senha" Margin="0,284,375,127" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="15" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="122"/>
+        <TextBox  TextWrapping="Wrap" Text="N° de telefone" Margin="0,242,375,169" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="15" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="122"/>
+        <TextBox  TextWrapping="Wrap" Text="Idade" Margin="0,284,556,127" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="15" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="122"/>
+        <TextBox  TextWrapping="Wrap" Text="Email" Margin="0,242,556,169" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="15" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="122"/>
+        <TextBox  TextWrapping="Wrap" Text="Nome" Margin="0,202,375,209" RenderTransformOrigin="0.107,0.667" Background="{x:Null}" FontFamily="Arial" FontSize="15" FontWeight="Bold" Foreground="#FF01233A" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="122"/>
+
+
+        <Button  Content="Entrar" RenderTransformOrigin="0.51,-0.28" Margin="584,336,128,64" Background="#FFD1FFC5" BorderThickness="3,1,1,1" BorderBrush="#FF0CED2E" Opacity="0.8" FontFamily="Source Serif Pro Black" FontSize="18" Foreground="#FF09580E" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button  Content="Cadastrar" RenderTransformOrigin="0.51,-0.28" Margin="246,336,440,64" Background="#FFD1FFC5" BorderThickness="3,1,1,1" BorderBrush="#FF0CED2E" Opacity="0.8" FontFamily="Source Serif Pro Black" FontSize="18" Foreground="#FF09580E" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <TextBox HorizontalAlignment="Left" Margin="548,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="25,1,1,1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="548,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="25,1,1,1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="123,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="1,1,1,1" RenderTransformOrigin="0.546,0.764">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform X="-0.001" Y="0.001"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="121,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="1,1,1,1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="300,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="1,1,1,1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="301,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="1,1,1,1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="300,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="1,1,1,1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="123,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="20" BorderBrush="#FF0040FF" BorderThickness="1,1,1,1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.017"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+    </Grid>
+</Window>
